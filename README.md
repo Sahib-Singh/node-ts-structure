@@ -1,5 +1,5 @@
 # Auth Service Sample
-Sample code of authentication service with basic structure.
+Authentication Service Structure Code.
 
 ## How to Run Code
 Follow the following steps
