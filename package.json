@@ -1,0 +1,57 @@
+{
+  "name": "authenticate",
+  "version": "0.0.1",
+  "description": "Kites Education Authenticate Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "native-code": "npm run build",
+    "start": "nodemon",
+    "inspect": "nodemon --inspect src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "kites-education",
+    "authenticate"
+  ],
+  "author": "Sahib Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/crypto-js": "^3.1.47",
+    "@types/express": "^4.17.7",
+    "agenda": "^3.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4",
+    "reflect-metadata": "^0.1.13",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4",
+    "typedi": "^0.8.0",
+    "typescript": "^3.9.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/agenda": "^2.0.9",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongodb": "^3.5.25",
+    "@types/mongoose": "^5.7.34"
+  }
+}
